@@ -1,0 +1,167 @@
+table{
+	border:1px solid #000;
+	border-collapse: collapse;
+	align-content: center;
+	background: #E1E1AC;
+	font-family: arial;
+	font-size: 20px;
+	width: 100%;
+}
+
+article a{
+	color:red;
+font-size:20px;
+text-decoration: none;
+background-color: #FFCA7E;
+font-family: arial;
+}
+
+.main .articles .table table{
+	border:1px solid #000;
+	border-collapse: collapse;
+	align-content: center;
+	background: #EBED61;
+	font-family: arial;
+	font-size: 20px;
+	width: 100%;
+
+}
+
+table td{
+	border: 1px solid #000;
+	padding: 20px;
+}
+
+table th:hover{
+	font-family: arial black;
+	background: #55FF23;
+	border: 1px solid #000;
+	padding: 15px;
+	font-size: 15px;
+}
+
+table th{
+	background: #4B61FF;
+}
+
+table tr:hover{
+	background: #99FFF6;
+}
+
+body{background: #BBC7FF;}
+
+*{margin: 0;
+padding: 0;}
+
+h1{
+	color: #000778;
+	font-size: 30px;
+	font-family: helvetica;
+	font-style: oblique;
+	background-color: #51BFE3;
+}
+
+h2{
+	font-family: arial narrow;
+	font-size: 27px;
+	color: #460000;
+	background-color: #51BFE3;
+}
+
+h3{
+	font-family: arial;
+}
+
+h6{
+	font-family: arial;
+	font-size: 16px;
+	font-style: italic;
+}
+
+p{
+	color: #0E4D00;
+	font-family: Verdana;
+	font-size: 18px;
+	text-align: justify;
+}
+
+footer p{
+	text-align: center;
+}
+
+
+h4{
+	font-family: calibri;
+	font-size: 20px;
+}
+
+h5{
+	font-family: arial narrow;
+	color: #360046;
+	font-size: 23px;
+	background-color: #51BFE3;
+}
+
+img{width:15%;
+height:25%;
+display:block;
+border-radius:50%;
+padding:10px 10px;
+border:4px solid #4F4CFF;
+box-shadow: 10px 10px 0px #010042}
+
+article img{width:90%;
+height:175%;
+display:block;
+border-radius:2%;
+padding:5px 5px;
+border-style: solid;
+align-content: center;	
+}
+
+header, .main, footer{width:90%;
+max-width:1500px;
+margin:20px auto;}
+header nav{background:#005D56;
+overflow:hidden;}
+header nav ul{list-style:none; }
+header nav ul li{float:left;}
+header nav ul li a{padding:10px 20px;
+display:block;
+color:#fff;
+text-decoration:none;}
+header nav ul li a:hover{background:#365C83;
+color: white;
+cursor: pointer;
+transition: all 300ms;}
+
+.main .articles{width:65%;
+float:left;
+margin-right:1.5%;}
+.main .articles article{padding:20px;
+background:#fff;
+margin-bottom:20px;}
+
+aside{width:32%;
+background:#BEFFB0;
+float:left;
+padding:10px 0px;
+box-sizing:border-box; }
+
+footer{background:#000321;
+color:#fff;
+clear:both;
+padding:10px 0px;
+text-align:center;}
+
+footer p{
+	color: #3CFF4D
+}
+
+ul{
+	list-style-type: square;
+	font-size: 18px;
+	font-family: Verdana;
+	text-align: justify;
+}
+
